@@ -21,14 +21,7 @@ int main(){
   string palabra1, palabra2, palabra;
 
   //Jugamos con palabra
-  palabra1= "perro";
-  cout<< palabra1<<endl;
-  palabra2= "verde";
-  cout<<palabra2<<endl;
-  cout<< palabra1+" "+palabra2<<endl;
-  cout<< palabra1<<" "<< palabra2 <<endl;
-  palabra1.append(palabra2);
-  cout<<palabra1<<endl;
+
 /*
   cout<< "Imprimir por pantalla"<< endl;
   cout<<  "Imprimir por pantalla \n "

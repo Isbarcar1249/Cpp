@@ -2,13 +2,14 @@
 using namespace std;
 
 int main(){
-	string palabra;
+	
 	int numero1 = 1;
 	int numero2 = 2, numero3 = 3;
 	const int NUMERO = 0;
 	double decimal;
 	char letra;
 	bool booleano;
+	string palabra1, palabra2, palabra;
 
 	/*// Jugamos con palabra
 	palabra = "perro";
@@ -16,6 +17,14 @@ int main(){
 	palabra = "casa";
 	cout << palabra << endl;
 	*/
+	palabra1= "perro";
+	cout<< palabra1<<endl;
+	palabra2= "verde";
+	cout<<palabra2<<endl;
+	cout<< palabra1+" "+palabra2<<endl;
+	cout<< palabra1<<" "<< palabra2 <<endl;
+	palabra1.append(palabra2);
+	cout<<palabra1<<endl;
 	/*//Jugamos con número
 	cout << numero1 << endl;
 	cout << numero2 << endl << numero3 << endl;
