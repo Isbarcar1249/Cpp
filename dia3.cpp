@@ -26,5 +26,7 @@ int main(){
   mostrarArray (juegos);
 
 
+
+
   return 0;
 }

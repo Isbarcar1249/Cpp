@@ -22,7 +22,6 @@ int main(){
   cout<<&juegos[0]<<endl;
   cout<<&juegos[1]<<endl;
   cout<<&juegos[2]<<endl;
-  cout<<&juegos+2<<endl;
   cout<<&juegos[3]<<endl;
   cout<<&juegos[4]<<endl;
 
