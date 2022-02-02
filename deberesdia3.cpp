@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-
+/*
   int numeros[100], numero[30],suma=0,contador=0;
 
 
@@ -32,13 +32,12 @@ if (contador%4==0){
   cout<<numero[x]<<endl;
   suma=0;
 }
-}
+}*/
 
 cout<<"Ejercicio 1 "<<endl<<endl;
 
 string contrasena;
-cout<<"Dime la contraseña"<<endl;
-cin>> contrasena;
+
 do {
   cout<<"Dime la contrasena"<<endl;
   cin>>contrasena;
@@ -82,9 +81,9 @@ int num;
 cout<<"Dime un numero ";
  cin>>num;
  if (num%2==0){
-   cout<<"PAR";
+   cout<<"PAR"<<endl;
  }else{
-   cout<<"IMPAR";
+   cout<<"IMPAR"<<endl;
  }
 
 
@@ -97,12 +96,12 @@ cin>>n2;
 
 
 
- int array[2]={n1,n2};
+ int array1[2]={n1,n2};
 
 
 for (int i=0;i<=2;i++) {
-  if(array[i]%2==0){
-    cout<<array[i]<<endl;
+  if(array1[i]%2==0){
+    cout<<array1[i]<<endl;
   }
 }
 cout<<"Ejercicio 6 "<<endl<<endl;
@@ -138,15 +137,15 @@ cout<<"La media es "<< suma/(contador-1)<<endl;
 
 cout<<"Ejercicio 7"<<endl<<endl;
 
-int n,suma=1,resultado=1;
+int n,suma1=1,resultado=1;
 cout<<"Introduce un numero ";
 cin>>n;
 
 for(int i=1;i<=n;i++){
   resultado=resultado*2;
-  suma=suma+resultado;
+  suma1=suma1+resultado;
 }
-cout<<suma;
+cout<<suma1<<endl;
 
 cout<<"Ejercicio 8"<<endl<<endl;
 
