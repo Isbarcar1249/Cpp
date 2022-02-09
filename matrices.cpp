@@ -27,9 +27,9 @@ void mostrarMatrizSTR(string matriz[TAMA][TAMA],int nFilas,int nCol ){
     cout<<endl;
   }
 }
-void hacerTablero(string tablero[TAMA][TAMA],int nFilas,int nCol){
+void hacerTablero(string tablero[TAMA][TAMA]){
   int contador=0;
-
+int nFilas;int nCol;
   cout<<"Cuantas filas quieres que tenga tu tablero ";
   cin>>nFilas;
   cout<<"Cuantas columnas quieres que tenga tu tablero ";
@@ -74,7 +74,7 @@ cin>>columnas;
 
 rellenarMatrizNumero(matriz,filas,columnas);
 mostrarMatriz(matriz,filas,columnas);
-hacerTablero(tablero,2,2);
+hacerTablero(tablero);
 //mostrarMatrizSTR(tablero,10,10);
 
   return 0;
