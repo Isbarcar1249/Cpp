@@ -130,5 +130,7 @@ cout<<endl;
 mijuegoMesa1.jugadores(4);
 cout<<endl;
 
+
+cout<<"he definido todo en la clase padre y en lo demas public, ya que lo que no se puede modificar es el nombre del juego "
    return 0;
  }
